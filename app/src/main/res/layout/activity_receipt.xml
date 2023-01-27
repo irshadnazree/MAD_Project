@@ -1,0 +1,56 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receipt"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtVwName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Name: "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtVwTableNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table Number: "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtVwItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total item: "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtVwPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total price to pay: RM"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="fnPay"
+            android:layout_marginTop="30dp"
+            android:text="@string/btnFinish"
+            android:textSize="21sp" />
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
