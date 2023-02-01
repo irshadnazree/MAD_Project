@@ -8,7 +8,6 @@ NUR HANANI BALQIS BINTI RAZAK -B032010373
 MUHAMMAD NABIL BIN MUSTAFA - B032010329
 
 Food Ordering Application
-Customer download app after that can order at table using app
 
 App Function 
 Register and Login
