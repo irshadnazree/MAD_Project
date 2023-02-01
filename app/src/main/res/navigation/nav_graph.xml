@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="ftmk.bitp3453.testsqlite02.FirstFragment"
+        android:name="ftmk.bitp3453.OrderApp.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="ftmk.bitp3453.testsqlite02.SecondFragment"
+        android:name="ftmk.bitp3453.OrderApp.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 

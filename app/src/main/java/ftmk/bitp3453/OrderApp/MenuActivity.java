@@ -1,11 +1,10 @@
-package ftmk.bitp3453.testsqlite02;
+package ftmk.bitp3453.OrderApp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;

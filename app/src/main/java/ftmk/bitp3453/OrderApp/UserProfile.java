@@ -1,11 +1,10 @@
-package ftmk.bitp3453.testsqlite02;
+package ftmk.bitp3453.OrderApp;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -19,12 +18,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
-import ftmk.bitp3453.testsqlite02.databinding.ActivityUserProfileBinding;
+import ftmk.bitp3453.OrderApp.databinding.ActivityUserProfileBinding;
 
 public class UserProfile extends AppCompatActivity {
 

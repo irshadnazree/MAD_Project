@@ -1,4 +1,4 @@
-package ftmk.bitp3453.testsqlite02;
+package ftmk.bitp3453.OrderApp;
 
 import org.junit.Test;
 

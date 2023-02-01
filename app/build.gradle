@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'ftmk.bitp3453.testsqlite02'
+    namespace 'ftmk.bitp3453.OrderApp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ftmk.bitp3453.testsqlite02"
+        applicationId "ftmk.bitp3453.OrderApp"
         minSdk 21
         targetSdk 33
         versionCode 1
